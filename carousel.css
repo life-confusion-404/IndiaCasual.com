@@ -1,0 +1,35 @@
+.container {
+  overflow: hidden;
+}
+
+.posts-swiper-container,
+.ama-swiper-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+}
+
+img {
+  aspect-ratio: 3/4;
+  object-fit: contain;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; /* make center if needed*/
+  height: 100%;
+}
+
+.content-container img {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
